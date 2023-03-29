@@ -3,7 +3,7 @@ import Footer from '../Components/Footer'
 import CardPost from '../Components/CardPost'
 import { useState } from 'react'
 import axios from "axios"
-import Category from '../Components/Category'
+
 import { useLocation } from 'react-router-dom'
 
 function BlogPage() {

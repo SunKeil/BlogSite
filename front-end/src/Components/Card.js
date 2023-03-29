@@ -12,7 +12,7 @@ import { Context } from '../Context/Context'
 function Card({post}) {
     const location = useLocation()
     const path = location.pathname.split('/')[2]
-    const [Post, setPost] = useState({})
+    const [posts, setPost] = useState({})
     const PF ="http://localhost:3002/images/"
     const {user} = useContext(Context)
 
@@ -20,6 +20,7 @@ function Card({post}) {
         const getPost = async ()=>{
           const res =await axios.get('/posts/'+ path)
           setPost(res.data)
+          
         }
         getPost()
       },[path])
@@ -36,7 +37,7 @@ function Card({post}) {
                 {/* <Link to={`/profile/?users=${post.username}`}></Link> */}
                 <p>{post.username}</p>
                 </div>
-                <div className='blog-texts'>
+                <div className='blog-texts' value={posts}>
                 <h5>{post.title}</h5>
                 <Link to={`/posts/${post._id}`}> <Visitbtn/></Link>
                 </div>

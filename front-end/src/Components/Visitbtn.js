@@ -1,10 +1,6 @@
-import axios from 'axios'
-import React, { useContext, useEffect, useState } from 'react'
-import { useLocation } from 'react-router-dom'
-import {Link} from "react-router-dom"
-import { Context } from '../Context/Context'
 
-function Visitbtn({post}) {
+
+function Visitbtn() {
   // const location = useLocation()
   // const path = location.pathname.split('/')[2]
   // const [Post, setPost] = useState({})

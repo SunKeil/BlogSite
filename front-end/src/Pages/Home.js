@@ -29,7 +29,7 @@ function Home() {
                 </div>   
             </div>
             <div className='col-6'>
-                <img src={girls} className="img-fluid" alt='header-image'/>
+                <img src={girls} className="img-fluid" alt='header-images'/>
             </div>
         </div>
         <div className='share mt-4 ps-5 pe-5 pb-5 row '>
@@ -39,7 +39,7 @@ function Home() {
             <div className='row'>
                 <div className='card-wrapper col'>
                     <div className='card-img-wrapper'>
-                        <img src={cat} className="img-size" alt='imgcard'/>
+                        <img src={cat} className="img-size" alt='imgcards'/>
                     </div>
                     <div className='card-text-wrapper'>
                         <h5 className='text-start'>Life Art </h5>
@@ -57,7 +57,7 @@ function Home() {
                 </div>
                 <div className='card-wrapper col'>
                     <div className='card-img-wrapper'>
-                        <img src={round} className="img-size" alt='imgcard'/>
+                        <img src={round} className="img-size" alt='imgcarde'/>
                     </div>
                     <div className='card-text-wrapper'>
                         <h5  className='text-start'>Alien Art</h5>
@@ -72,7 +72,7 @@ function Home() {
             </div>
             <div className='start-wrapper row align-items-center'>
                 <div className='image-start-wrapper col-6 pad-s'>
-                    <img src={oldman} className="img-fluid img-share" alt='flex-img'/>
+                    <img src={oldman} className="img-fluid img-share" alt='flex-imgs'/>
                 </div>
                 <div className='image-start-wrapper start-img col-6'>
                     <h5 className='text-start'>Flex it </h5>
@@ -92,7 +92,7 @@ function Home() {
             </div>
              <div className='start-wrapper row align-items-center'>
                 <div className='image-start-wrapper col-6 pad-s '>
-                    <img src={scare} className="img-fluid img-share" alt='flex-img'/>
+                    <img src={scare} className="img-fluid img-share" alt='flex-imge'/>
                 </div>
                 <div className='image-start-wrapper start-img col-6'>
                     <h5 className='text-start '>It is forbidden to display nudity.</h5>
@@ -132,7 +132,7 @@ function Home() {
                     <h5>The Best Blog</h5>
                     <p className='ftext'>Explore this website further to discover more about a person's deepest brain region.</p>
                     <div className='4img mt-3'>
-                        <img className='img-fluid' src={one} alt="4num"/>
+                        <img className='img-fluid' src={one} alt="4nums"/>
                     </div>
                 </div>
                 <div className='fnum col'>
@@ -146,14 +146,14 @@ function Home() {
                     <h5>The Best Blog</h5>
                     <p className='ftext'>Explore this website further to discover more about a person's deepest brain region.</p>
                     <div className='4img mt-3'>
-                        <img className='img-fluid' src={three} alt="4num"/>
+                        <img className='img-fluid' src={three} alt="4nume"/>
                     </div>
                 </div>
                 <div className='fnum col'>
                     <h5>The Best Blog</h5>
                     <p className='ftext'>Explore this website further to discover more about a person's deepest brain region.</p>
                     <div className='4img mt-3'>
-                        <img className='img-fluid' src={four} alt="4num"/>
+                        <img className='img-fluid' src={four} alt="4numd"/>
                     </div>
                 </div>
                 <div className='remember'>

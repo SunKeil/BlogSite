@@ -69,7 +69,7 @@ function Profile() {
             
               
               <form className='profile-form' onSubmit={handleSubmit}>
-                <img src={ file ? URL.createObjectURL(file) : PF + user.photo}  className='fileinputimage '/>
+                <img src={ file ? URL.createObjectURL(file) : PF + user.photo}  alt="img-alt" className='fileinputimage '/>
                 <label>Upload profile image:</label>
                 <input className='profile-file' type="file" onChange={(e)=> setFile(e.target.files[0])}/>
               </form> 
